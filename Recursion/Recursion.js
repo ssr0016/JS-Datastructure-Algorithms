@@ -2,7 +2,7 @@
 // earlier can also be written recursively, like this
 
 function factorial(number){
-    if(number === 1){
+    if(number == 1){
         return number;
     }
     else{
@@ -10,4 +10,7 @@ function factorial(number){
     }
 }
 
-console.log(factorial(1));//
+// let text = "           hello world!           ";
+// let text2 = text.trim();
+
+// console.log(text2)
